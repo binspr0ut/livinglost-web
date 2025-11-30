@@ -65,25 +65,14 @@ export default function FAQPage() {
           </p>
         </details>
 
-        {/* QUESTION 5 */}
-        <details className="bg-blue-100 p-4 rounded-lg mb-4 shadow-sm">
-          <summary className="cursor-pointer font-semibold">
-            Is the game safe for children?
-          </summary>
-          <p className="mt-3">
-            Yes. Since no personal data is collected, the game complies with
-            COPPA and GDPR-K requirements and is suitable for all ages.
-          </p>
-        </details>
-
         {/* QUESTION 6 */}
         <details className="bg-blue-100 p-4 rounded-lg mb-4 shadow-sm">
           <summary className="cursor-pointer font-semibold">
             Who can I contact if I have additional questions?
           </summary>
           <p className="mt-3">
-            You can reach us at <strong>your-email@example.com</strong> for
-            privacy or support inquiries.
+            You can reach us at <strong>instagram @thelivingandthelost</strong>{" "}
+            for privacy or support inquiries.
           </p>
         </details>
       </div>

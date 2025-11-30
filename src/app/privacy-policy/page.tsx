@@ -79,31 +79,14 @@ export default function PrivacyPolicy() {
           is ever tracked or shared.
         </p>
 
-        <h2 className="text-2xl font-semibold mt-8 mb-3">
-          5. Children’s Privacy
-        </h2>
-        <p className="mb-4">
-          Since the App does not collect personal information, it complies with
-          COPPA, GDPR-K, and other children’s privacy regulations. The App is
-          suitable for all ages.
-        </p>
-
-        <h2 className="text-2xl font-semibold mt-8 mb-3">6. Data Security</h2>
+        <h2 className="text-2xl font-semibold mt-8 mb-3">5. Data Security</h2>
         <p className="mb-4">
           No personal data is stored or transmitted. Temporary gameplay
           information transmitted by Unity Relay is protected by Unity’s secure
           infrastructure.
         </p>
 
-        <h2 className="text-2xl font-semibold mt-8 mb-3">
-          7. Changes to This Privacy Policy
-        </h2>
-        <p className="mb-4">
-          We may update this Privacy Policy from time to time. Any changes will
-          be posted on this page.
-        </p>
-
-        <h2 className="text-2xl font-semibold mt-8 mb-3">8. Contact Us</h2>
+        <h2 className="text-2xl font-semibold mt-8 mb-3">6. Contact Us</h2>
         <p className="mb-4">
           If you have questions about this Privacy Policy, please contact at
           instagram:
