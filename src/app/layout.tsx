@@ -2,6 +2,24 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
+import localFont from "next/font/local";
+
+const detectiveFont = localFont({
+  src: [
+    {
+      path: "../../public/fonts/Gargle Cd Rg.otf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../../public/fonts/Gargle Cd Bd.otf",
+      weight: "700",
+      style: "normal",
+    },
+  ],
+  variable: "--font-detective",
+});
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -23,12 +41,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
+    <html lang="en" className={detectiveFont.variable}>
+      <body className={` antialiased`}>{children}</body>
     </html>
   );
 }
