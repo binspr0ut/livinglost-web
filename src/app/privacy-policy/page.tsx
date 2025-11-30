@@ -1,7 +1,11 @@
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 
-export const metadata = { title: "Privacy Policy | The Living and The Lost" };
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy | The Living and The Lost",
+};
 
 export default function PrivacyPolicy() {
   return (
