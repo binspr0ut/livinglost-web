@@ -20,31 +20,31 @@ const team: Member[] = [
   {
     name: "Karenhapukh Aurelia Rustiawan",
     role: "Project Manager / Illustrator",
-    image: "/images/karen.png",
+    image: "/images/dev1.png",
     linkedin: "https://www.linkedin.com/in/karenhapukh-aurelia-rustiawan/",
   },
   {
     name: "Devica Sutikno",
     role: "Game Artist / Illustrator",
-    image: "/images/vica.png",
+    image: "/images/dev2.png",
     linkedin: "https://www.linkedin.com/in/devicasutikno/",
   },
   {
     name: "Andre Michael",
     role: "Illustrator / Writer",
-    image: "/images/andre.png",
+    image: "/images/dev3.png",
     linkedin: "https://www.linkedin.com/in/andre-michael-3024b1207/",
   },
   {
     name: "Mahardika Putra Wardhana",
     role: "Tech Lead / Game Developer",
-    image: "/images/dika.png",
+    image: "/images/dev4.png",
     linkedin: "https://www.linkedin.com/in/mahardikawardhana/",
   },
   {
     name: "Rigel Sundun Tandilolo",
     role: "Game Developer / Writer",
-    image: "/images/rigel.png",
+    image: "/images/dev5.png",
     linkedin: "https://www.linkedin.com/in/rigeltandilolo/",
   },
 ];
