@@ -12,7 +12,7 @@ export default function PrivacyPolicy() {
     <>
       <Navbar />
 
-      <div className="min-h-screen bg-gradient-to-b from-amber-100 to-amber-50 pt-32 pb-24">
+      <div className="min-h-screen bg-linear-to-b from-amber-100 to-amber-50 pt-32 pb-24">
         <div className="max-w-4xl mx-auto px-6 text-amber-900">
           <h1 className="text-4xl font-bold mb-6">Privacy Policy</h1>
 
