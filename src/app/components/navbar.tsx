@@ -16,6 +16,7 @@ export default function Navbar() {
           <Link href="/">Home</Link>
           <Link href="/privacy-policy">Privacy Policy</Link>
           <Link href="/faq">FAQ</Link>
+          <Link href="/developer">About Us</Link>
         </div>
       </div>
     </nav>
